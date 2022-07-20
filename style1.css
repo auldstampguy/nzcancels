@@ -1,0 +1,228 @@
+/*
+CSS for Minnesota Cancels
+*/
+body {
+  /*font-family: Verdana, Helvetica, Arial, sans-serif; */ 
+  /*background-color: #e2edff;*/
+  /*background-color: #737C86;*/
+  /*background-color: #565e59;  Dark Green*/
+  background-color: #14120d;  /*Black*/
+  line-height: 145%;
+  padding: 15px;
+  color: white;
+  font-size: medium; 
+}
+
+
+h1, h2, h3 {
+	font-family: "Trebuchet MS", Helvetica, Arial, sans-serif;
+}
+
+h1 {
+  	font-family: "Trebuchet MS", Helvetica, Arial, sans-serif; 
+  	font-size: x-large;
+	/*background-color: navy;*/
+	color: white;
+
+}
+
+h2 {
+  color: white;
+  font-size: 130%;
+  font-weight: bold;
+}
+
+p {
+  color: white;
+  font-size: large; 
+}	
+
+.site-title-main {
+	font-weight: 400;
+	letter-spacing: 0.036em;
+	text-transform: uppercase;
+	font-size: 58px;
+}
+.site-title {
+	font-weight: 400;
+	letter-spacing: 0.036em;
+	text-transform: uppercase;
+	font-size: xx-large;
+	line-height: 0.8cm;
+}
+
+.heading1 {
+	font-size: 1.5em;
+	text-align: center;
+	font-weight: bold;
+	color: white;
+	/*color: #6f8ca7;*/
+	line-height: 0.6cm;
+}
+
+
+/*** Tables ***/
+table.mws_disp {
+	border-collapse: collapse;
+}
+table.mws_disp td {
+	vertical-align:top;
+	padding-top:10px;
+	color: #555e58;
+}
+table.mws_disp td.white_text {
+	color: #f0f0f0;
+}
+table.mws_disp td.no_left {
+	border-left: none;
+}
+table.mws_disp td.no_right {
+	border-right: none;
+}
+
+table.mws_disp_th_center td {
+	vertical-align:top;
+	text-align:center;
+	
+}
+tr.alternate{
+	background-color:#f9f9f9;
+	color: #555e58;
+}
+tr.alternate a {
+	font-weight: bold;
+	text-decoration: underline;
+	color: #555e58;
+}
+tr.alternate1{
+	background-color:#9e9e9e;
+}
+tr.alternate1 a {
+	font-weight: bold;
+	text-decoration: underline;
+	color: #555e58;
+}
+tr.alternate2{
+	background-color:#c9c9c9;
+}
+tr.alternate2 a {
+	font-weight: bold;
+	text-decoration: underline;
+	color: #555e58;
+}
+
+td.white_border {
+	border: 1px solid white;
+}
+td.large-font {
+	font-size: large;
+}
+
+/*Allow content to float right*/
+.mws-align-right {
+	float: right;
+	vertical-align:text-bottom;
+}
+/*Allow content to float left*/
+.mws-align-left {
+	float: left;
+	vertical-align:text-bottom;
+}
+/*Minimum Row Height in a Table*/
+.mws-min-row-height {
+	overflow: hidden;
+    height: 5px;
+    white-space: nowrap;
+}
+
+/*** Checkbox Hack ***/
+
+/*** Autocomplete ***/
+.autocomplete {
+  /*the container must be positioned relative:*/
+  position: relative;
+  display: inline-block;
+}
+input {
+  border: 1px solid transparent;
+  /*background-color: #f1f1f1; */
+  padding: 10px;
+  font-size: 16px;
+}
+input[type=text] {
+  /*background-color: #f1f1f1; */
+  width: 100%;
+}
+input[type=submit] {
+  background-color: DodgerBlue;
+  color: #fff;
+}
+.autocomplete-items {
+  position: absolute;
+  border: 1px solid #d4d4d4;
+  border-bottom: none;
+  border-top: none;
+  color: #14120d;
+  z-index: 99;
+  /*position the autocomplete items to be the same width as the container:*/
+  top: 100%;
+  left: 0;
+  right: 0;
+}
+.autocomplete-items div {
+  padding: 10px;
+  cursor: pointer;
+  background-color: #fff;
+  border-bottom: 1px solid #d4d4d4;
+}
+.autocomplete-items div:hover {
+  /*when hovering an item:*/
+  background-color: #e9e9e9;
+}
+.autocomplete-active {
+  /*when navigating through the items using the arrow keys:*/
+  /*background-color: DodgerBlue !important; */
+  background-color: #bdbdbd !important;
+  color: #ffffff;
+}
+
+
+/*
+ * W3.CSS Overrides
+ */
+ 
+ .w3-border-darkgreen {
+    /*border-color: #565e59!important; */
+    border-color: #14120d!important;
+}
+ .w3-border-darkgray {
+    /*border-color: #565e59!important; */
+    border-color: #3c3939!important;
+}
+
+.w3-background-light-green {
+	background-color: #b0c1ba;
+}
+.w3-background-light-gray {
+	background-color: #9e9e9e;
+}
+.w3-background-lighter-gray {
+	background-color: #bdbdbd;
+}
+.w3-background-dark-red {
+	background-color: #550f0f;
+}
+.w3-text-darkgreen {
+	color: #565e59;
+}
+.w3-dropdown-content-override {
+	/*background-color: #565e59; */
+	background-color: #3c3939;  /*Dark Gray*/
+}
+.w3-hover-text-dark-green:hover {
+	color: #565e59!important;
+}
+.w3-line-height-large {
+	line-height: 160%;
+}
+
